@@ -8,8 +8,8 @@ from llm import get_response
 
 load_dotenv()
 
-os.environ["GROQ_API_KEY"] = os.getenv("GROQ_API_KEY")
-groq_api_key = os.getenv("GROQ_API_KEY")
+os.environ["GROQ_API_KEY"] = "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"
+groq_api_key = "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"
 
 print(groq_api_key)
 
